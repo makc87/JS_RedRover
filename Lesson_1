@@ -43,3 +43,33 @@ Lesson_1
 Креативное задание*:
 4 Напишите пошаговый алгоритм приготовления кофе и выведите его в консоль.
 Желательно пронумеровать шаги. Каждый шаг должен быть выведен с новой строки.
+
+//Make coffee
+
+let coffee, milk, water, spoon, cap, sugar;
+coffee = "instant coffee";
+milk = "100 ml of milk";
+water = "150 ml hot water";
+spoon = "tea spoon";
+cap = "coffee cup 250ml";
+sugar = "cane sugar";
+
+// process of preparation
+console.log(`1. Take 1 ${spoon} of ${coffee}.`);
+console.log(`2. Take ${cap}.`);
+console.log(`3. Add ${coffee} in ${cap}.`);
+console.log(`4. Add ${sugar} in ${cap}.`);
+console.log(`5. Add ${water} in ${cap}.`);
+console.log(`6. Add ${milk} in ${cap}.`);
+console.log(`7. Take a ${spoon} and stir the coffee.`);
+
+
+
+
+
+
+
+
+
+
+
